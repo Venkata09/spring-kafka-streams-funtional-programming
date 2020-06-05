@@ -82,9 +82,9 @@ That means a single binding can be applied to multiple topics.
 
 Ex: spring.cloud.stream.bindings.wordcount-in-0.destination=words
 
-the above setting or configuration can be modifed to multiple topics as well.
+the above setting or configuration can be modified to multiple topics as well.
 
-spring.cloud.stream.bindings.wordcount-in-0.destination=words1,words2,word3
+**spring.cloud.stream.bindings.wordcount-in-0.destination=words1,words2,word3**
 
 The output stream is configured as follows: spring.cloud.stream.bindings.wordcount-out-0.destination=counts
 
